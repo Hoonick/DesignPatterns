@@ -1,8 +1,8 @@
 package com.mashibing.dp.factorymethod;
 
-public class CarFactory implements MoveableFactory{
+public class BroomFactory  implements MoveableFactory {
     public Moveable create() {
         System.out.println("a car created!");
-        return new Car();
+        return new Broom();
     }
 }
